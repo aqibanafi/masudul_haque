@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../../../assets/images/masud_haque_logo.png';
+import Logo from '../../../assets/images/footer_logo.png';
 
 const Footer = () => {
     return (
@@ -8,12 +8,12 @@ const Footer = () => {
                 <img src={Logo} alt="" />
             </div>
             <div>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-10 font-medium">
-                    <div className='flex flex-col items-center gap-2'>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-1 gap-y-5 font-semibold">
+                    <div className='flex flex-col items-center text-base gap-2'>
                         <p>CALL</p>
                         <p>+88 01712515272</p>
                     </div>
-                    <div className='flex flex-col items-center gap-2'>
+                    <div className='flex flex-col items-center text-base gap-2'>
                         <p>E-MAIL</p>
                         <p>haque.masudull77@gmail.com</p>
                     </div>

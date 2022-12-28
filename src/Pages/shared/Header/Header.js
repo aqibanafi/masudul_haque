@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import Logo from '../../../assets/images/logo_header.png';
 
 const Header = () => {
     return (
@@ -24,7 +25,7 @@ const Header = () => {
                         }><li>CONTACT</li></NavLink>
                     </ul>
                 </div>
-                <Link to='/' className="btn btn-ghost normal-case text-xl">daisyUI</Link>
+                <Link to='/'><img src={Logo} alt="" /></Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -43,7 +44,7 @@ const Header = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <Link className="btn bg-accent border-0 text-white hover:bg-primary">Login</Link>
+                <Link className="btn bg-primary border-0 text-white hover:bg-accent">Login</Link>
             </div>
         </div>
     );
