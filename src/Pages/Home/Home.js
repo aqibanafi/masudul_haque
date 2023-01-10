@@ -1,8 +1,9 @@
 import React from 'react';
-import ProfilePicture from '../../assets/images/profile_picture.png';
+import ProfilePicture from '../../assets/images/happy_bhai.png';
 import Line from '../../assets/icons/picture_line.png';
 import Instagram from '../../assets/icons/instagram.png';
 import Behance from '../../assets/icons/behance.png';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -10,7 +11,7 @@ const Home = () => {
             <div className='bg-white rounded-3xl flex flex-col shadow-2xl'>
                 <div className='bg-accent rounded-t-3xl p-24 flex flex-col items-center '>
                     <div className='mb-5'>
-                        <img src={ProfilePicture} alt="" />
+                        <img className='xl:ml-20' src={ProfilePicture} alt="" />
                     </div>
                     <div className='mb-10'>
                         <h1 className='text-4xl font-bold text-primary text-center'>Mohammad Masudull Haque</h1>
@@ -22,7 +23,7 @@ const Home = () => {
                         <h1 className='text-3xl font-bold text-primary'>GRAPHIC DESIGNER</h1>
                     </div>
                 </div>
-                <div className='flex mt-16 items-center justify-evenly mb-14 lg:mb-0'>
+                <div className='flex mt-16 items-center justify-evenly mb-14 lg:mb-0 pb-10'>
                     <div>
                         <p className='text-3xl font-medium'>Follow On</p>
                     </div>
@@ -32,12 +33,12 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className='p-20'>
+            <div>
                 <h1 className='text-6xl font-bold text-primary mb-10'>Hello <br /> Everyone</h1>
                 <h2 className='text-3xl font-normal mb-6'>Here's Who I am & What I do</h2>
                 <div className='flex gap-5 mb-9'>
                     <button className="btn btn-sm bg-primary border-0 text-white font-bold hover:bg-accent hover:text-black">RESUME</button>
-                    <button className="btn btn-sm btn-outline text-black font-bold hover:bg-primary hover:text-white">PROJECTS</button>
+                    <Link to='/projects'><button className="btn btn-sm btn-outline text-black font-bold hover:bg-primary hover:text-white">PROJECTS</button></Link>
                 </div>
                 <p className='font-normal text-black text-xl'>I'm a professional graphic designer and free hand sketch artist. I am able to do any kind of design.
                     If you are seeking someone who can provide creative designs for various uses and work directly with clients on multiple projects,

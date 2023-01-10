@@ -25,6 +25,23 @@
         position: absolute;
         width: 300px;
         height: 300px;
+        left:15%;
+        top:12%
+    }
+    .kids-div:hover .kids-icon{
+        position: absolute;
+        width: 230px;
+        height: 230px;
+        left:25%;
+        top:25%
+    }
+}
+
+@media only screen and (max-width: 688px) {
+    .illustrator-div:hover .illustrator-icon{
+        position: absolute;
+        width: 300px;
+        height: 300px;
         left:5%;
         top:12%
     }

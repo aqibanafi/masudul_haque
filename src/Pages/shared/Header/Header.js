@@ -30,13 +30,13 @@ const Header = () => {
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
                     <NavLink to='/aboutme' className={({ isActive }) =>
-                        isActive ? "bg-accent py-3 px-3 rounded text-white font-medium" : "text-black mr-3 p-3 hover:text-primary hover:bg-accent hover:rounded font-medium"
+                        isActive ? "bg-accent py-3 px-3 mr-3 rounded text-white font-medium" : "text-black mr-3 p-3 hover:text-primary hover:bg-accent hover:rounded font-medium"
                     }><li>ABOUT ME</li></NavLink>
                     <NavLink to='/resume' className={({ isActive }) =>
-                        isActive ? "bg-accent py-3 px-3 rounded text-white font-medium" : "text-black mr-3 p-3 hover:text-primary hover:bg-accent hover:rounded font-medium"
+                        isActive ? "bg-accent py-3 px-3 mr-3 rounded text-white font-medium" : "text-black mr-3 p-3 hover:text-primary hover:bg-accent hover:rounded font-medium"
                     }><li>RESUME</li></NavLink>
                     <NavLink to='/projects' className={({ isActive }) =>
-                        isActive ? "bg-accent py-3 px-3 rounded text-white font-medium" : "text-black mr-3 p-3 hover:text-primary hover:bg-accent hover:rounded font-medium"
+                        isActive ? "bg-accent py-3 px-3 mr-3 rounded text-white font-medium" : "text-black mr-3 p-3 hover:text-primary hover:bg-accent hover:rounded font-medium"
                     }><li>PROJECTS</li></NavLink>
                     <NavLink to='/contact' className={({ isActive }) =>
                         isActive ? "bg-accent py-3 px-3 rounded text-white font-medium" : "text-black mr-3 p-3 hover:text-primary hover:bg-accent hover:rounded font-medium"
@@ -44,7 +44,7 @@ const Header = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <Link className="btn bg-primary border-0 text-white hover:bg-accent">Login</Link>
+                <Link to='/login' className="btn bg-primary border-0 text-white hover:bg-accent">Login</Link>
             </div>
         </div>
     );
