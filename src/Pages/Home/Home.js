@@ -27,8 +27,8 @@ const Home = () => {
                         <p className='text-3xl font-medium'>Follow On</p>
                     </div>
                     <div className='flex gap-5'>
-                        <a href=""><img className='h-10 w-10' src={Instagram} alt="" /></a>
-                        <a href=""><img className='h-10 w-10' src={Behance} alt="" /></a>
+                        <a href="https://www.instagram.com/" target="_blank"><img className='h-10 w-10' src={Instagram} alt="" /></a>
+                        <a href="https://www.behance.net/" target="_blank"><img className='h-10 w-10' src={Behance} alt="" /></a>
                     </div>
                 </div>
             </div>
