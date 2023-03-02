@@ -13,17 +13,19 @@ const Home = () => {
                     <div className='mb-5'>
                         <img className='xl:ml-20' src={ProfilePicture} alt="" />
                     </div>
-                    <div className='mb-10'>
-                        <h1 className='text-4xl font-bold text-primary text-center'>Mohammad Masudull Haque</h1>
-                    </div>
-                    <div className='mb-10'>
-                        <img src={Line} alt="" />
-                    </div>
-                    <div>
-                        <h1 className='text-3xl font-bold text-primary'>GRAPHIC DESIGNER</h1>
+                    <div className='flex flex-col items-center'>
+                        <div className='mb-10'>
+                            <h1 className='text-4xl font-bold text-primary text-center'>Mohammad Masudull Haque</h1>
+                        </div>
+                        <div className='mb-10'>
+                            <img src={Line} alt="" />
+                        </div>
+                        <div>
+                            <h1 className='text-3xl font-bold text-primary'>GRAPHIC DESIGNER</h1>
+                        </div>
                     </div>
                 </div>
-                <div className='flex mt-16 items-center justify-evenly mb-14 lg:mb-0 pb-10'>
+                <div className='flex mt-16 items-center justify-evenly mb-14 lg:mb-0 pb-3 lg:pb-14'>
                     <div>
                         <p className='text-3xl font-medium'>Follow On</p>
                     </div>
